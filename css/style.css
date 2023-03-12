@@ -1,0 +1,375 @@
+/******************GENERAL*************/
+body{
+    font-family: "Roboto", sans-serif;
+    color:#434455;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+address {
+    font-style: normal;
+
+}
+
+
+ul {
+    padding-left: 0;
+    margin: 0;
+}
+
+img {
+    display: block;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.title{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+.container {
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    outline: 2px solid red;
+
+}
+
+.section{
+    padding: 120px 0;
+}
+
+
+.btn:is(:hover, :focus) {
+    color: #FFFFFF;
+    background: #404BBF;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+}
+
+.btn {
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+    ;
+}
+/**-------------------------FOOTER---------------------*/
+.footer-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
+
+.footer-logo>.logo-second-word {
+    color: #F4F4FD;
+}
+
+.footer {
+    background-color: #2E2F42;
+    ;
+}
+
+.footer-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #E7E9FC;
+
+    max-width: 264px;
+}
+
+.footer-container{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.address-item-link:hover,
+.address-item-link:focus{
+    color:#404bbf;
+}
+
+.address-list{
+    display: flex;
+    margin-right: auto;
+}
+
+/**-------------------------HEADER---------------------*/
+.header-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+    margin-right: 76px;
+}
+
+.header-logo>.logo-second-word {
+    color: #2E2F42;
+}
+.header-container {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.header-nav {
+    display: flex;
+    margin-right: auto;
+}
+
+.header-list {
+    display: flex;
+    gap: 40px;
+}
+
+.header-item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.header-item-link{
+    color:#2e2f42;
+}
+
+.address {
+    font-style: normal;
+}
+
+.address-item-link {
+    color:#434455;
+}
+
+.address-item {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.address-item:hover{
+    color:#404bbf;
+}
+
+.header-item-link:hover,
+.header-item-link:focus,
+.header-item-link:active{
+    color:#404bbf;
+}
+
+.header-container{
+    display: flex;
+    align-items: center;
+}
+
+.email{
+    margin-right: 40px;
+}
+
+/*!--------------------INDEX-PAGE----------------------*/
+/**-----------------------HERO----------------------*/
+.hero{ 
+    background: #2E2F42;
+}
+.hero-title{
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    max-width: 496px;
+    margin: 0 auto;
+    padding-bottom: 48px;
+}
+
+.hero-btn{
+    font-family: inherit;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    background: #4D5AE5;
+    border: none;
+
+    margin: 0 auto;
+   
+}
+
+.hero-btn:hover,
+.hero-btn:focus{
+    background-color:#404BBF;
+}
+
+.hero-container{
+    padding-top: 188px;
+    padding-bottom: 185px;
+}
+
+/**------------COMPANY_POLICY---------------*/
+
+.company-policy-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    margin-top: 120px;
+}
+
+.company-policy-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.company-policy-list{
+    display: flex;
+    gap: 24px;
+}
+/**-----------------OUR-TEAM------------------*/
+
+.member-name {
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.member-position {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.team-title{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+    font-weight:500;
+    margin-bottom: 72px;
+}
+.team{
+    background: #F4F4FD;
+}
+.team-member{
+    background-color:#FFFFFF;
+}
+
+.member-name{
+    font-weight: 500;
+}
+
+.team-list{
+    
+    display: flex;
+    gap: 32px;
+}
+.member-info{
+   padding: 32px 65px; 
+   white-space: nowrap;
+   
+}
+
+/**---------------WORKS---------------*/
+.works-list{
+    display: flex;
+    gap: 24px;
+}
+
+.works-title{
+    margin-bottom: 72px;
+}
+
+/*!---------------------PORTFOLIO-PAGE-------------------*/
+.item-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.item-description{
+    font-size: 16px;
+    line-height: 1.5;    
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.portfolio-btn{
+    font-family: inherit;
+    background-color:#E7E9FC;
+}
+
+.button-list{
+    display: flex;
+    margin-top: 95px;
+    justify-content: center;
+    gap: 24px;
+}
+
+.item-text-content{
+    padding-left: 16px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.projects-list-item{
+    border: 1px solid #E7E9FC;
+}
+
+.projcets-list{
+    display:flex;
+    gap: 24px;
+    flex-wrap: wrap;
+}
