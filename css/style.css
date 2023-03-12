@@ -235,6 +235,10 @@ img {
     border: none;
 
     margin: 0 auto;
+    padding: 16px 32px;
+    
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;;
    
 }
 
@@ -369,7 +373,17 @@ img {
 }
 
 .projcets-list{
+    margin-top: 72px;
     display:flex;
-    gap: 24px;
+    justify-content: space-between;
     flex-wrap: wrap;
+}
+.projects-list-item{
+margin-bottom: 48px;
+}
+
+.portfolio-btn{
+    padding: 12px 24px;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
 }
